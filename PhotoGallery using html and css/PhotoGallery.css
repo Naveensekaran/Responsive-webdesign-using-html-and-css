@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(207, 192, 221);
+}
+.header{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 32px;
+    background-color: rgb(4, 4, 32);
+    color: white;
+    border-bottom:  6px solid rgb(216, 167, 6);
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    
+}
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    object-fit: cover;
+    height: 300px;
+    border-radius: 10px;
+}
